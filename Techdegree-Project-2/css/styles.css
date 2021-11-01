@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+}
+
+/* -------------- Main styles --------------- */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  }
+
+li {
+  list-style: none;
+  width: 95%;
+  margin: 4px;
+  padding: 10px 0;
+  border-radius: 2px;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+
+
+
+ /* --------------- flex box --------------- */
+
+ .main-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  }
+
+ .profile-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+ }
+
+ body {
+  min-height: 100vh;
+ }
+
+
+    footer {
+background-color: rgb(223, 221, 221);
+width: 100%
+    }
+
+  /* Media Queries */  
+
+    @media (min-width: 768px) {
+      
+      .main-nav ul, header, .profile-img {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      h1 {
+        text-align: center; 
+        font-family: 'Poppins', sans-serif;
+        }
+
+        .nav-bar {
+          margin-top: 1vh;
+      }
+
+      #portfolio {
+        flex-wrap: wrap;
+      }
+
+        .profile {
+          max-width: 50%;
+          display: block;
+          float: right;
+        }
+
+        .container {
+          width: 95%;
+          max-width: 1000px;
+          margin: auto;
+      }
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          width: 100%;
+
+      .main-nav {
+          display: flex;
+          justify-content: center;
+          list-style-type: none;
+      }
+
+      .profile-img {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+    }
+
+    #intro {
+      padding-bottom: 50px;
+      min-height: 100vh - 89px;
+    }
+
+        li {
+          margin: 20px;
+        }
+
+        }
+
+        @media (min-width: 1024px) {
+          
+          .main-header {
+            display: flex;
+            align-items: flex-start;
+          }
+
+          .main-nav {
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 10px
+        }
