@@ -24,6 +24,10 @@ img {
   margin-bottom: 15px;
 }
 
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
 
 
  /* --------------- flex box --------------- */
@@ -39,35 +43,46 @@ background-color: rgb(223, 221, 221);
 width: 100%
     }
 
+
   /* Media Queries */  
 
     @media (min-width: 768px) {
-      
-  .main-nav, ul, .profile-img {
-    display: flex;
-    flex-direction: row;  
-    justify-content: center;
-    flex-wrap: wrap;
-  }
 
-  .profile-img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-  }
+      nav {
+        display: flex;
+        flex-direction: row;  
+        justify-content: center;
+        gap: 12px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+      }
   
-}
+    .profile-img {
+      display: flex;
+      flex-direction: row-reverse;
+      }
+      
+    .row {
+      width: 90%;
+      margin: 0 auto;
+      }
 
+    .portolio {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      }
+
+      .col {
+        flex: 1;
+      }
+  
+    
+  }
+
+ 
 
         @media (min-width: 1024px) {
           
-          .main-header {
-            display: flex;
-            flex-direction: row;
-          }
-
-          .main-nav {
-            flex-direction: row;
-            justify-content: space-between;
-            padding-top: 10px;
+ 
         }
