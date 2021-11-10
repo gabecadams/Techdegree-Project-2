@@ -118,7 +118,7 @@ nav a {
     margin-left: 20px;
   }
   
-  nav {
+  .nav {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -172,10 +172,25 @@ nav a {
     display: inline-block;
     margin-left: 20px;
   }
-  
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin-top: auto;
+    padding: 0 20px;
+    height: 100px;
+}
+
+  h1 {
+    text-align: left;
+  }
+} 
   
   .intro {
       text-align: left;
+      margin-left: 15px;
   }
 
   .col {
