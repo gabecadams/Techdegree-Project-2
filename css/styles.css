@@ -67,7 +67,7 @@ p {
   border-bottom: 1px solid;
 }
 
-footer {
+#contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -206,5 +206,3 @@ nav a {
   .border {
       border-bottom: 1px solid;
   }
-
-}
